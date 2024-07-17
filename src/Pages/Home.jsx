@@ -105,6 +105,7 @@ function Home() {
 
                             </div>
 
+                            {/**Added pointsm after*/}
                             <div className="flex flex-wrap space-y-6 md:space-y-0">
 
                                 <div className="flex flex-col items-center text-center p-4 md:w-1/3">
@@ -141,7 +142,7 @@ function Home() {
                                     </div>
                                     <div className="flex-grow">
                                         <h2 className="mb-3 text-lg font-bold text-gray-900 title-font">
-                                            Enjoy Food
+                                            Enjoy Food 
                                         </h2>
                                         <p className="text-base leading-relaxed">
                                             As soon as you get your order, enjoy the delicious pizza with your loved ones.
@@ -158,7 +159,8 @@ function Home() {
 
                 </div>
 
-            </section>
+            </section> 
+
         </div>
     )
 }
