@@ -5,10 +5,12 @@ import IconPatchCheck from "../Components/Icon/IconPatchCheck"
 import pickup from "../assets/Images/pickup.png"
 import enjoy from "../assets/Images/enjoy.png"
 import orderFood from "../assets/Images/orderFood.png"
+import Layout from "../Layout/Layout";
 
 
 function Home() {
     return (
+        <Layout>
         <div>
             {/* Hero section */}
             <section className="flex flex-col-reverse items-center justify-center py-5 md:flex-row md:gap-7 bg-gradient-to-r from-amber-50 to-orange-300">
@@ -164,11 +166,12 @@ function Home() {
             {/**Location and address */}
             <section>
                 <div>
-                    
+
                 </div>
             </section>
 
         </div>
+        </Layout>
     )
 }
 
