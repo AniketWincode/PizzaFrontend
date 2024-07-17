@@ -161,6 +161,13 @@ function Home() {
 
             </section> 
 
+            {/**Location and address */}
+            <section>
+                <div>
+                    
+                </div>
+            </section>
+
         </div>
     )
 }
